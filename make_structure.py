@@ -1,5 +1,5 @@
 import os
-base = r"c:\Projects\DSTP\Company Portfolio"
+base = os.path.dirname(os.path.abspath(__file__))
 
 paths = [
 "dstp_backend/manage.py",
