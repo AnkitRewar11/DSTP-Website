@@ -16,9 +16,9 @@ export default function Header() {
         <div className="flex flex-1 items-center gap-80 w-full justify-center">
           <Link
             to="/"
-            className="text-lg font-bold tracking-tight text-white hover:text-blue-400 transition"
+            className="text-2xl font-bold tracking-tighter text-white hover:text-blue-400 transition flex items-center"
           >
-            DSTP
+            DSTP<span className="text-[10px] align-top ml-0.5 font-normal">™</span>
           </Link>
 
           <div className="hidden lg:block">

@@ -1,5 +1,6 @@
 import { Routes, Route } from 'react-router-dom'
 import Header from './components/layout/Header'
+import Footer from './components/layout/Footer'
 import Home from './pages/Home'
 
 function PageShell({ title, subtitle }) {
@@ -56,6 +57,7 @@ export default function App() {
           element={<PageShell title="Get a Quote" subtitle="Tell us about your project to receive a tailored quote." />}
         />
       </Routes>
+      <Footer />
     </div>
   )
 }
