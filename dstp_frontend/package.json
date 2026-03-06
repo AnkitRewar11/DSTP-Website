@@ -1,0 +1,6 @@
+{
+  "name": "dstp-frontend",
+  "private": true,
+  "version": "0.0.0",
+  "description": "DSTP frontend monorepo (client + admin)"
+}
